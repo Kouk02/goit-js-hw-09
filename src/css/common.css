@@ -39,3 +39,71 @@ img {
   left: 50%;
   background-color: #B22222;
 }
+
+
+
+body,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #0077ff;
+}
+
+#datetime-picker {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #0077ff;
+  border-radius: 5px;
+  margin-right: 10px;
+  color: #333;
+  background-color: #fff;
+}
+
+button[data-start] {
+  background-color: #0077ff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button[data-start]:hover {
+  background-color: #0055aa;
+}
+
+/* Timer styles */
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.field {
+  margin: 0 10px;
+}
+
+.value {
+  font-size: 28px;
+  font-weight: bold;
+  color: #0077ff;
+}
+
+.label {
+  font-size: 16px;
+  color: #777;
+}
